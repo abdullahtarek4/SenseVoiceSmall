@@ -38,6 +38,7 @@ def load_models():
         model="FunAudioLLM/SenseVoiceSmall",
         device="cpu", 
         hub="hf",
+        trust_remote_code=True,
         disable_update=True
     )
     g2p_model = G2p() 
