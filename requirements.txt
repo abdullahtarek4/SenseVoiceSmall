@@ -1,0 +1,8 @@
+streamlit
+funasr
+torch
+torchaudio
+huggingface_hub
+g2p_en
+nltk
+gTTS
